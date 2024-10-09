@@ -1,0 +1,27 @@
+.listcard {
+  background-color: var(--primary-color1);
+  border-radius: 2rem;
+  height: 30rem;
+  max-width: 35rem;
+  width: 35rem;
+  padding-top: 6rem;
+  color: var(--accent-color2);
+  text-align: center;
+ -moz-box-shadow: -1px 10px 19px -12px rgba(0,0,0,0.48);
+-webkit-box-shadow: -1px 10px 19px -12px rgba(0,0,0,0.48);
+box-shadow: -1px 10px 19px -12px rgba(0,0,0,0.48);
+}
+
+.listcard > h3 {
+  color: var(--primary-color2);
+}
+.listcard > p {
+  height: 10rem;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 0 2rem;
+}
+.listcard > * {
+  margin-top: 1.3rem;
+}

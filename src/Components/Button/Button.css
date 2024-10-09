@@ -1,0 +1,13 @@
+.custombutton {
+  min-width: 8rem;
+  padding: 1.7rem 2.5rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  -moz-box-shadow: -1px 10px 19px -12px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: -1px 10px 19px -12px rgba(0, 0, 0, 0.48);
+  box-shadow: -1px 10px 19px -12px rgba(0, 0, 0, 0.48);
+}
+.custombutton:disabled {
+  opacity: 0.1;
+  cursor: auto;
+}

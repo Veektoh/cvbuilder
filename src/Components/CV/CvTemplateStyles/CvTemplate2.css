@@ -1,0 +1,69 @@
+.cv-template2 .cvPreview-wrapper .cv-summary h2 {
+  border-top: black solid 0.23rem;
+}
+.cv-template2 .cvPreview-wrapper > section > h2 {
+  margin-bottom: 0.5rem;
+  border-bottom: black solid 0.23rem;
+  padding: 0.5rem 0;
+}
+.cv-template2 .cvPreview-wrapper h1,
+.cv-template2 .cvPreview-wrapper h2,
+.cv-template2 .cvPreview-wrapper h3,
+.cv-template2 .cvPreview-wrapper h4 {
+  color: #021e27;
+  text-transform: capitalize;
+}
+.cv-template2 .cv-header .cv-header-details {
+  display: flex;
+  font-size: 1.2em;
+}
+.cv-template2 .cv-header h1 {
+  font-size: 2em;
+}
+.cv-template2 .cv-header .cv-header-details > * {
+  margin-right: 1.5rem;
+}
+
+.cv-template2 .cv-skills ul {
+  display: flex;
+  text-wrap: nowrap;
+  flex-wrap: wrap;
+}
+.cv-template2 .cv-skills ul li {
+  margin-right: 1.5rem;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.cv-template2 .cv-workExperience .cv-experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+.cv-template2 .cv-workExperience .cv-experience-header * {
+  margin-bottom: 0.1rem;
+}
+.cv-template2 .cv-workExperience h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.cv-template2
+  .cv-workExperience
+  .cv-experience-header
+  .cv-experience-comp-loc
+  > * {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.cv-template2 .cv-workExperience .cv-workExperience-list {
+  margin-bottom: 2rem;
+}
+.cv-template2 .cv-workExperience .cv-workExperience-list li {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.cv-template2 .cv-education .cv-education-list {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,98 @@
+.cvPreview-wrapper {
+  padding: 5rem;
+  width: 830px;
+  background-color: var(--secondary-color1);
+}
+.cvPreview-wrapper * {
+  margin-bottom: 0.2rem;
+}
+.cvPreview-wrapper > section {
+  margin-bottom: 1rem;
+}
+.cv-header {
+  text-transform: capitalize;
+}
+
+.cvPreview-wrapper input {
+  border: 0.2rem solid var(--accent-color1);
+  background-color: var(--accent-color1);
+  border-radius: 1rem;
+  padding: 0.7rem;
+  font-size: inherit;
+  color: inherit;
+  margin: inherit;
+  text-align: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  min-width: 100%;
+  height: auto;
+}
+.cvPreview-wrapper textarea {
+  min-width: 100%;
+  resize: none;
+  background-color: var(--accent-color1);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: inherit;
+  color: inherit;
+  margin: inherit;
+  text-align: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+}
+.cvPreview-wrapper ul:has(input),
+.cvPreview-wrapper .cv-education-list.editMode,
+.cvPreview-wrapper .cv-education-list.editMode * {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cv-education-list.editMode,
+.cv-workExperience-list.editMode {
+  background-color: var(--accent-color2);
+  border-radius: 1rem;
+  padding: 2.5rem 1rem;
+}
+.cv-education-list.editMode {
+  margin-bottom: 2rem;
+}
+.editSaveBtnSpan {
+  margin-left: 1rem;
+}
+.editSaveBtnSpan > * {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: inherit;
+  position: relative;
+}
+.editList {
+  width: 90%;
+  display: flex;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: inherit;
+  width: 10%;
+  position: relative;
+}
+
+.toastMsg {
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  background-color: var(--primary-color1);
+  color: var(--accent-color1);
+  padding: 1rem;
+  width: max-content;
+  position: absolute;
+  top: 2.5rem;
+  left: -3rem;
+  display: none;
+  z-index: 1000;
+}
+.editBtn:hover .toastMsg {
+  display: block;
+}

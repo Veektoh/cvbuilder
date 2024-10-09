@@ -1,0 +1,12 @@
+.features-section h2 {
+  text-align: center;
+}
+.features-section ul {
+  display: flex;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.features-section ul > * {
+  margin: 3rem;
+}

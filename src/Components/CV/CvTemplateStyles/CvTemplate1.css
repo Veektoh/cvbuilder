@@ -1,0 +1,80 @@
+.cv-template1 .cvPreview-wrapper > section > h2 {
+  border-bottom: #021e27 solid 0.25rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.cv-template1 .cvPreview-wrapper h1,
+.cv-template1 .cvPreview-wrapper h2,
+.cv-template1 .cvPreview-wrapper h3,
+.cv-template1 .cvPreview-wrapper h4 {
+  color: #021e27;
+  text-transform: capitalize;
+}
+
+.cv-template1 .cv-header {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.cv-template1 .cv-header h1 {
+  font-size: 2em;
+}
+.cv-template1 .cv-header .cv-header-details {
+  display: flex;
+  flex-direction: column;
+}
+.cv-template1 .cv-header .cv-header-details > * {
+  margin-right: 1.5rem;
+}
+
+.cv-template1 .cv-skills ul {
+  columns: 3;
+  padding-left: 2rem;
+  /* text-wrap: nowrap; */
+}
+.cv-template1 .cv-skills ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.cv-template1 .cv-workExperience .cv-experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+.cv-template1 .cv-workExperience .cv-experience-header * {
+  margin-bottom: 0.1rem;
+}
+
+.cv-template1
+  .cv-workExperience
+  .cv-experience-header
+  .cv-experience-comp-loc
+  > * {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.cv-template1 .cv-workExperience .cv-workExperience-list {
+  margin-bottom: 2rem;
+}
+.cv-template1 .cv-workExperience .cv-workExperience-list li {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+.cv-template1 .cv-workExperience h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.cv-template1 .cv-education .cv-education-list * {
+  display: inline-block;
+}
+.cv-template1 .cv-education .cv-education-list {
+  display: flex;
+  justify-content: space-between;
+}
+.cv-template1 .cv-education .cv-education-list .dash::before {
+  content: "-";
+  margin: 0 0.5rem;
+}

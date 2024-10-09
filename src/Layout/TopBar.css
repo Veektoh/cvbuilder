@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--sm) var(--xl);
+  background-color: var(--primary-color1);
+  font-weight: bold;
+  height: 5.5rem;
+  position: fixed;
+  top: 0;
+}
+.header > img {
+  max-width: 100%;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.header > a {
+  color: var(--primary-color2);
+}

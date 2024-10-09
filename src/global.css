@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sora:wght@100..800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 10px;
+  --primary-color1: #210c2c;
+  --primary-color2: #f9a966;
+  --secondary-color1: #ffffff;
+  --secondary-color2: #000000;
+  --accent-color1: #eeeeee;
+  --accent-color2: #cdcdcd;
+  --sm: 1rem;
+  --md: 1.5rem;
+  --lg: 2rem;
+  --xl: 3rem;
+}
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* outline: 0.1rem solid black; */
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  font-size: var(--md);
+  background-color: var(--accent-color1);
+  font-family: "Sora", sans-serif;
+}
+button {
+  cursor: pointer;
+  background: none;
+}
+.desktop-only {
+  display: none;
+}
+.mobile-tablet-only {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  .desktop-only {
+    display: block;
+  }
+}
+
+/* Optional: Show something on mobile and tablet only */
+@media screen and (max-width: 1024px) {
+  .mobile-tablet-only {
+    display: block;
+  }
+}

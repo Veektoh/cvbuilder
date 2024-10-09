@@ -1,0 +1,38 @@
+.feature-page {
+  display: flex;
+  height: calc(100vh - 5.5rem);
+  overflow: hidden;
+}
+.feature-page > * {
+  width: 50%;
+}
+.feature-type-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-type-div > * {
+  width: 80%;
+}
+.feature-type-div .btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.cv-preview-dv {
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+}
+.cv-preview-dv > * {
+  transform: scale(0.42);
+  transform-origin: top;
+  position: absolute;
+  top: 2rem;
+  -moz-box-shadow: -2px 15px 58px 6px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: -2px 15px 58px 6px rgba(0, 0, 0, 0.48);
+  box-shadow: -2px 15px 58px 6px rgba(0, 0, 0, 0.48);
+}

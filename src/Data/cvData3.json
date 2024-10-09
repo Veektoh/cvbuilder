@@ -1,0 +1,115 @@
+{
+  "header": {
+    "name": "Akinsanmi victor ayomide",
+    "contact": {
+      "phone": "(555) 654-3210",
+      "email": "samantha.lee@example.com"
+    },
+    "linkedin": "https://linkedin.com/in/samanthalee",
+    "location": "New York, NY"
+  },
+  "professionalSummary": "Award-winning journalist with over 10 years of experience covering breaking news, in-depth reports, and feature stories. Proven track record in investigative journalism with a focus on politics and social issues. Adept at creating compelling narratives and working under tight deadlines. Seeking to bring storytelling skills to a leading news organization.",
+  "keySkills": [
+    "Investigative Journalism",
+    "Feature Writing",
+    "Breaking News Coverage",
+    "Research & Analysis",
+    "Content Editing",
+    "Interviewing",
+    "Multimedia Storytelling",
+    "Data Journalism",
+    "Social Media Management",
+    "Press Relations"
+  ],
+  "professionalExperience": [
+    {
+      "title": "Senior Journalist",
+      "company": "The Daily Times",
+      "location": "New York, NY",
+      "dates": "March 2018 – Present",
+      "details": [
+        "Reported on major political events and social issues, winning the National Journalism Award for investigative reporting.",
+        "Conducted in-depth interviews with high-profile figures and published exclusive stories.",
+        "Edited and fact-checked articles to ensure accuracy and adherence to journalistic standards.",
+        "Led a team of junior reporters and managed daily news coverage assignments."
+      ]
+    },
+    {
+      "title": "Journalist",
+      "company": "Metro News",
+      "location": "Chicago, IL",
+      "dates": "June 2012 – February 2018",
+      "details": [
+        "Covered a variety of beats including local news, health, and education.",
+        "Produced feature articles and news reports that increased readership and engagement.",
+        "Utilized data and research to support investigative stories and provide in-depth analysis.",
+        "Engaged with readers through social media and responded to feedback and queries."
+      ]
+    },
+    {
+      "title": "Senior Journalist",
+      "company": "The Daily Times",
+      "location": "New York, NY",
+      "dates": "March 2018 – Present",
+      "details": [
+        "Reported on major political events and social issues, winning the National Journalism Award for investigative reporting.",
+        "Conducted in-depth interviews with high-profile figures and published exclusive stories.",
+        "Edited and fact-checked articles to ensure accuracy and adherence to journalistic standards.",
+        "Led a team of junior reporters and managed daily news coverage assignments."
+      ]
+    },
+    {
+      "title": "Senior Journalist",
+      "company": "The Daily Times",
+      "location": "New York, NY",
+      "dates": "March 2018 – Present",
+      "details": [
+        "Reported on major political events and social issues, winning the National Journalism Award for investigative reporting.",
+        "Conducted in-depth interviews with high-profile figures and published exclusive stories.",
+        "Edited and fact-checked articles to ensure accuracy and adherence to journalistic standards.",
+        "Led a team of junior reporters and managed daily news coverage assignments."
+      ]
+    },
+    {
+      "title": "Senior Journalist",
+      "company": "The Daily Times",
+      "location": "New York, NY",
+      "dates": "March 2018 – Present",
+      "details": [
+        "Reported on major political events and social issues, winning the National Journalism Award for investigative reporting.",
+        "Conducted in-depth interviews with high-profile figures and published exclusive stories.",
+        "Edited and fact-checked articles to ensure accuracy and adherence to journalistic standards.",
+        "Led a team of junior reporters and managed daily news coverage assignments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Journalism",
+      "institution": "Columbia University",
+      "graduationDate": "May 2012",
+      "gpa": "3.9/4.0"
+    }
+  ],
+  "certifications": [
+    "Certified Data Journalist – Data Journalism Institute, 2021",
+    "Advanced Investigative Reporting – Poynter Institute, 2019"
+  ],
+  "publications": [
+    {
+      "title": "The Rise of Political Corruption: An In-Depth Investigation",
+      "journal": "The Daily Times",
+      "date": "June 2022",
+      "link": "https://example.com/publication1"
+    }
+  ],
+  "awards": [
+    {
+      "title": "National Journalism Award for Investigative Reporting",
+      "organization": "National Press Club",
+      "date": "2021"
+    }
+  ],
+  "languages": ["English: Fluent", "French: Intermediate"],
+  "references": "Available upon request."
+}

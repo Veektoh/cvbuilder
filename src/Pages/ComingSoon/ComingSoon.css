@@ -1,0 +1,9 @@
+.comingSoon-div h1 {
+  height: 80vh;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-size: 10rem;
+  color: var(--primary-color1);
+  opacity: 0.5;
+}
